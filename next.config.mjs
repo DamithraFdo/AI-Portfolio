@@ -1,4 +1,8 @@
+import path from "path";
+
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
@@ -10,8 +14,14 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  basePath: '/AI-Portfolio',
-  assetPrefix: '/AI-Portfolio/',
+  ...(isProd && {
+    basePath: '/AI-Portfolio',
+    assetPrefix: '/AI-Portfolio/',
+  }),
+
+  turbopack: {
+    root: path.join(process.cwd()),
+  },
 }
 
 export default nextConfig
