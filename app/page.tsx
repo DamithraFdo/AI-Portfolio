@@ -1029,11 +1029,11 @@ function VideoSection() {
   // Add your video preview images to /public/images/videos/ as video1.jpg, video2.jpg, etc.
   const videos = [
     { 
-      title: "AI Product Commercial", 
+      title: "Test 1: AI Product Commercial", 
       description: "Cinematic product showcase with AI-generated visuals and motion graphics",
       duration: "0:45",
       type: "Commercial",
-      image: "/images/videos/video1.jpg",
+      video: "/images/videos/video1.mp4",
       prompt: "Cinematic product commercial, sleek tech device floating in dark space, holographic UI elements surrounding it, smooth camera orbit, particle effects, professional color grading, 4K, Runway Gen-3 style --ar 16:9"
     },
     { 
@@ -1041,7 +1041,7 @@ function VideoSection() {
       description: "Full AI-generated music video with surreal landscapes and abstract visuals",
       duration: "3:24",
       type: "Music Video",
-      image: "/images/videos/video2.jpg",
+      video: "/images/videos/video2.jpg",
       prompt: "Surreal music video scene, ethereal figure walking through morphing dreamscape, liquid metal surfaces, bioluminescent plants, smooth transitions between environments, abstract visual poetry, Sora quality --ar 16:9"
     },
     { 
@@ -1049,7 +1049,7 @@ function VideoSection() {
       description: "Animated brand narrative using AI-powered character and scene generation",
       duration: "1:30",
       type: "Animation",
-      image: "/images/videos/video3.jpg",
+      video: "/images/videos/video3.mp4",
       prompt: "Stylized 3D animation, minimalist character design, smooth motion, clean geometric environments, brand story narrative, premium corporate feel, Pixar-inspired lighting, seamless scene transitions --ar 16:9"
     },
     { 
@@ -1057,7 +1057,7 @@ function VideoSection() {
       description: "Educational content with AI-generated diagrams and visual explanations",
       duration: "5:12",
       type: "Educational",
-      image: "/images/videos/video4.jpg",
+      video: "/images/videos/video4.mp4",
       prompt: "Educational explainer video, complex concept visualization, animated diagrams, clean infographic style, professional voiceover pacing, clear visual hierarchy, Kurzgesagt inspired aesthetic --ar 16:9"
     },
   ]
@@ -1102,10 +1102,13 @@ function VideoSection() {
             >
               {/* Video preview area */}
               <div className="relative aspect-video">
-                <img 
-                  src={video.image}
-                  alt={video.title}
+                <video
+                  src={video.video}
                   className="absolute inset-0 w-full h-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
                 />
                 
                 {/* Animated lines for video feel */}
