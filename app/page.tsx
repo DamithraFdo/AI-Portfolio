@@ -1037,7 +1037,7 @@ function VideoSection() {
       prompt: "Cinematic product commercial, sleek tech device floating in dark space, holographic UI elements surrounding it, smooth camera orbit, particle effects, professional color grading, 4K, Runway Gen-3 style --ar 16:9"
     },
     { 
-      title: "Music Video - Synthetic Dreams", 
+      title: "Test 2: Music Video - Synthetic Dreams", 
       description: "Full AI-generated music video with surreal landscapes and abstract visuals",
       duration: "3:24",
       type: "Music Video",
