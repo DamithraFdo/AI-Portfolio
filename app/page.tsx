@@ -1029,7 +1029,7 @@ function VideoSection() {
   // Add your video preview images to /public/images/videos/ as video1.jpg, video2.jpg, etc.
   const videos = [
     { 
-      title: "AI Product Commercial", 
+      title: "Test 1: AI Product Commercial", 
       description: "Cinematic product showcase with AI-generated visuals and motion graphics",
       duration: "0:45",
       type: "Commercial",
