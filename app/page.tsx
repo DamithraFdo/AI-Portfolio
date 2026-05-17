@@ -1055,12 +1055,44 @@ function VideoSection() {
       prompt: "Stylized 3D animation, minimalist character design, smooth motion, clean geometric environments, brand story narrative, premium corporate feel, Pixar-inspired lighting, seamless scene transitions --ar 16:9"
     },
     { 
-      title: "Tech Explainer Video", 
-      description: "Educational content with AI-generated diagrams and visual explanations",
+      title: "Planet Earth Explainer", 
+      description: "Educational explainer video about planet Earth with AI-generated visuals and voiceover",
       duration: "5:12",
-      type: "Educational",
+      type: "SiFi",
       video: "/images/videos/video4.mp4",
-      prompt: "Educational explainer video, complex concept visualization, animated diagrams, clean infographic style, professional voiceover pacing, clear visual hierarchy, Kurzgesagt inspired aesthetic --ar 16:9"
+      prompt: "Wide shot of a brutalist interior with a huge window framing earth planet. The shot is wide, some people walk al look around. The light is space light hard with a lot of contrast. The shot is ethereal and unique. Slow moving the camera falls floating in the void."
+    },
+    { 
+      title: "Highland Calves Stop-Motion", 
+      description: "A stop-motion cinematic close-up shot captures a charming scene. A huge herd of, exquisite very fluffy and round baby Highland calves, with its impossibly shaggy, ginger-colored coat and endearing, hair-covered face, are sitting peacefully in a field of oversized, handcrafted heather. The calves are meticulously crafted, its long hair appearing soft and exhibiting the subtle 'boil' or jitter characteristic of stop-motion animation. The texture of the coat should be palpable, almost like thick, soft yarn. Its long eyelashes blink slowly as it chews on a blade of grass, their floppy ears twitching slightly. The lighting is soft and golden, as if from a misty sunrise over the Scottish moors, casting gentle shadows and highlighting the texture of its shaggy coat and the purple heather. The color palette is rich and earthy, with the warm ginger of the calf and the deep purples and greens of the surrounding landscape. The overall effect should be charming, whimsical, and slightly surreal, emphasizing the handcrafted nature of the stop-motion animation.",
+      duration: "5:12",
+      type: "Stop-Motion Animation",
+      video: "/images/videos/video5.mp4",
+      prompt: "A stop-motion cinematic close-up shot captures a charming scene. A huge herd of, exquisite very fluffy and round baby Highland calves, with its impossibly shaggy, ginger-colored coat and endearing, hair-covered face, are sitting peacefully in a field of oversized, handcrafted heather. The calves are meticulously crafted, its long hair appearing soft and exhibiting the subtle 'boil' or jitter characteristic of stop-motion animation. The texture of the coat should be palpable, almost like thick, soft yarn. Its long eyelashes blink slowly as it chews on a blade of grass, their floppy ears twitching slightly. The lighting is soft and golden, as if from a misty sunrise over the Scottish moors, casting gentle shadows and highlighting the texture of its shaggy coat and the purple heather. The color palette is rich and earthy, with the warm ginger of the calf and the deep purples and greens of the surrounding landscape. The overall effect should be charming, whimsical, and slightly surreal, emphasizing the handcrafted nature of the stop-motion animation."
+    },
+    { 
+      title: "Yarn Sumo Animation", 
+      description: "Animation of a Sumo combat made of yarn in the world made of yarn. Stop-motion animation. In a world made of yarn. Dark background. Cinematic light.",
+      duration: "2:45",
+      type: "Animation",
+      video: "/images/videos/video6.mp4",
+      prompt: "Stop-motion animation, yarn-based characters, whimsical setting, dark background, cinematic lighting --ar 16:9"
+    },
+    { 
+      title: "Furniture Explosion", 
+      description: "A cinematic animation of a furniture explosion in a minimalist room, showcasing dynamic motion and creative design. The scene opens in a stark, modern living room with clean lines and neutral colors. At the center of the room sits a plain cardboard box on the floor. The camera slowly zooms in on the box, building tension with dramatic music. Suddenly, the box bursts open with a powerful explosion, sending furniture flying in all directions. Sofas, tables, chairs, lamps, and rugs are propelled outward with dynamic motion, flipping and tumbling through the air. The animation captures the weight and elasticity of each piece as they soar and then settle into perfect positions around the room. A cushion bounces onto the couch, a framed picture spins through the air before snapping onto the wall, and a pendant light swings gently as it settles. The camera orbits around the space, revealing a fully designed living room where there was once nothing. The scene ends with the box still open at the center, a single scrap of packing paper fluttering to the ground.",
+      duration: "2:45",
+      type: "Scene Creation",
+      video: "/images/videos/video7.mp4",
+      prompt: "A vast, empty warehouse, silent and still. At the center, a plain cardboard box sits alone on the concrete floor, perfectly framed. The camera slowly pushes in, tension building in the quiet space. Suddenly, the box tightens, then explodes! A powerful arc of furniture—sofas, rugs, tables, shelves, lamps—erupts outward in all directions, flipping and tumbling midair before landing into perfect positions. A cushion bounces onto the couch, a framed picture spins through the air before snapping onto the wall, and a pendant light swings gently as it settles. The motion is fast, elastic, and full of weight, like a controlled burst of energy. The camera orbits the space, revealing a fully designed living room where there was once nothing. At the center, the box remains open, a single scrap of packing paper fluttering to the ground."
+    },
+    { 
+      title: "Miniature Train Adventure", 
+      description: "A miniature model train traveling along a tree branch in the rainforest, with animals swinging in the background and jungle sounds prevalent, viewed from a pov macro action camera",
+      duration: "2:45",
+      type: "Story",
+      video: "/images/videos/video8.mp4",
+      prompt: "a miniature model train going moving along a tree branch in the rainforest, animals are swinging in the background, jungle sounds are prevalent, pov macro action camera"
     },
   ]
   
